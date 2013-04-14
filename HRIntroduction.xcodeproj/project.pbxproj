@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA447600171920E90021CED3 /* HRDefaultBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4475FF171920E90021CED3 /* HRDefaultBackgroundView.m */; };
+		DA447603171926240021CED3 /* HRDefaultGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA447602171926240021CED3 /* HRDefaultGradientView.m */; };
+		DA44760717192FE80021CED3 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA44760517192FE80021CED3 /* background@2x.png */; };
+		DA447609171935690021CED3 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA447608171935690021CED3 /* title@2x.png */; };
+		DA44760C171943350021CED3 /* HRTransformBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA44760B171943340021CED3 /* HRTransformBaseView.m */; };
+		DADC468E171A5D05004BB49A /* HRProgressAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC468D171A5D05004BB49A /* HRProgressAdjust.m */; };
+		DADC4691171AB61B004BB49A /* HRSampleIntoroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADC4690171AB61B004BB49A /* HRSampleIntoroductionViewController.m */; };
+		DAEBC67A1702B3B600A9A5CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEBC6791702B3B600A9A5CB /* UIKit.framework */; };
+		DAEBC67C1702B3B600A9A5CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEBC67B1702B3B600A9A5CB /* Foundation.framework */; };
+		DAEBC67E1702B3B600A9A5CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEBC67D1702B3B600A9A5CB /* CoreGraphics.framework */; };
+		DAEBC6841702B3B600A9A5CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAEBC6821702B3B600A9A5CB /* InfoPlist.strings */; };
+		DAEBC6861702B3B600A9A5CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEBC6851702B3B600A9A5CB /* main.m */; };
+		DAEBC68A1702B3B600A9A5CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEBC6891702B3B600A9A5CB /* AppDelegate.m */; };
+		DAEBC68C1702B3B600A9A5CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEBC68B1702B3B600A9A5CB /* Default.png */; };
+		DAEBC68E1702B3B600A9A5CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEBC68D1702B3B600A9A5CB /* Default@2x.png */; };
+		DAEBC6901702B3B600A9A5CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEBC68F1702B3B600A9A5CB /* Default-568h@2x.png */; };
+		DAEBC6931702B3B600A9A5CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEBC6921702B3B600A9A5CB /* ViewController.m */; };
+		DAEBC6A11702B67600A9A5CB /* HRIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEBC6A01702B67600A9A5CB /* HRIntroductionViewController.m */; };
+		DAF4CBF31708F81400F432A4 /* HRDefaultPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF4CBF21708F81400F432A4 /* HRDefaultPanel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA4475FE171920E90021CED3 /* HRDefaultBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDefaultBackgroundView.h; sourceTree = "<group>"; };
+		DA4475FF171920E90021CED3 /* HRDefaultBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDefaultBackgroundView.m; sourceTree = "<group>"; };
+		DA447601171926240021CED3 /* HRDefaultGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDefaultGradientView.h; sourceTree = "<group>"; };
+		DA447602171926240021CED3 /* HRDefaultGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDefaultGradientView.m; sourceTree = "<group>"; };
+		DA44760517192FE80021CED3 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		DA447608171935690021CED3 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
+		DA44760A171943340021CED3 /* HRTransformBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRTransformBaseView.h; sourceTree = "<group>"; };
+		DA44760B171943340021CED3 /* HRTransformBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTransformBaseView.m; sourceTree = "<group>"; };
+		DACC74AB1706F3C2004CD8D3 /* HRProgressRecever.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRProgressRecever.h; sourceTree = "<group>"; };
+		DADC468C171A5D05004BB49A /* HRProgressAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRProgressAdjust.h; sourceTree = "<group>"; };
+		DADC468D171A5D05004BB49A /* HRProgressAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRProgressAdjust.m; sourceTree = "<group>"; };
+		DADC468F171AB61A004BB49A /* HRSampleIntoroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRSampleIntoroductionViewController.h; sourceTree = "<group>"; };
+		DADC4690171AB61B004BB49A /* HRSampleIntoroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRSampleIntoroductionViewController.m; sourceTree = "<group>"; };
+		DAEBC6761702B3B600A9A5CB /* HRIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEBC6791702B3B600A9A5CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAEBC67B1702B3B600A9A5CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAEBC67D1702B3B600A9A5CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAEBC6811702B3B600A9A5CB /* HRIntroduction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HRIntroduction-Info.plist"; sourceTree = "<group>"; };
+		DAEBC6831702B3B600A9A5CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAEBC6851702B3B600A9A5CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAEBC6871702B3B600A9A5CB /* HRIntroduction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HRIntroduction-Prefix.pch"; sourceTree = "<group>"; };
+		DAEBC6881702B3B600A9A5CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAEBC6891702B3B600A9A5CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAEBC68B1702B3B600A9A5CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DAEBC68D1702B3B600A9A5CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DAEBC68F1702B3B600A9A5CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DAEBC6911702B3B600A9A5CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAEBC6921702B3B600A9A5CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAEBC69F1702B67600A9A5CB /* HRIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRIntroductionViewController.h; sourceTree = "<group>"; };
+		DAEBC6A01702B67600A9A5CB /* HRIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRIntroductionViewController.m; sourceTree = "<group>"; };
+		DAF4CBF11708F81400F432A4 /* HRDefaultPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDefaultPanel.h; sourceTree = "<group>"; };
+		DAF4CBF21708F81400F432A4 /* HRDefaultPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDefaultPanel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAEBC6731702B3B600A9A5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEBC67A1702B3B600A9A5CB /* UIKit.framework in Frameworks */,
+				DAEBC67C1702B3B600A9A5CB /* Foundation.framework in Frameworks */,
+				DAEBC67E1702B3B600A9A5CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA89C7861702BF4F00C693AE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DA447608171935690021CED3 /* title@2x.png */,
+				DA44760517192FE80021CED3 /* background@2x.png */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+		DAEBC66D1702B3B600A9A5CB = {
+			isa = PBXGroup;
+			children = (
+				DAEBC67F1702B3B600A9A5CB /* HRIntroduction */,
+				DAEBC6781702B3B600A9A5CB /* Frameworks */,
+				DAEBC6771702B3B600A9A5CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAEBC6771702B3B600A9A5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEBC6761702B3B600A9A5CB /* HRIntroduction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAEBC6781702B3B600A9A5CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEBC6791702B3B600A9A5CB /* UIKit.framework */,
+				DAEBC67B1702B3B600A9A5CB /* Foundation.framework */,
+				DAEBC67D1702B3B600A9A5CB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEBC67F1702B3B600A9A5CB /* HRIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				DAEBC6801702B3B600A9A5CB /* Supporting Files */,
+				DAEBC69E1702B63300A9A5CB /* HRIntroduction */,
+				DAEBC6881702B3B600A9A5CB /* AppDelegate.h */,
+				DAEBC6891702B3B600A9A5CB /* AppDelegate.m */,
+				DAEBC6911702B3B600A9A5CB /* ViewController.h */,
+				DAEBC6921702B3B600A9A5CB /* ViewController.m */,
+				DADC468F171AB61A004BB49A /* HRSampleIntoroductionViewController.h */,
+				DADC4690171AB61B004BB49A /* HRSampleIntoroductionViewController.m */,
+			);
+			path = HRIntroduction;
+			sourceTree = "<group>";
+		};
+		DAEBC6801702B3B600A9A5CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA89C7861702BF4F00C693AE /* images */,
+				DAEBC6811702B3B600A9A5CB /* HRIntroduction-Info.plist */,
+				DAEBC6821702B3B600A9A5CB /* InfoPlist.strings */,
+				DAEBC6851702B3B600A9A5CB /* main.m */,
+				DAEBC6871702B3B600A9A5CB /* HRIntroduction-Prefix.pch */,
+				DAEBC68B1702B3B600A9A5CB /* Default.png */,
+				DAEBC68D1702B3B600A9A5CB /* Default@2x.png */,
+				DAEBC68F1702B3B600A9A5CB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAEBC69E1702B63300A9A5CB /* HRIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4CBF01708F78E00F432A4 /* default */,
+				DAEBC69F1702B67600A9A5CB /* HRIntroductionViewController.h */,
+				DAEBC6A01702B67600A9A5CB /* HRIntroductionViewController.m */,
+				DA44760A171943340021CED3 /* HRTransformBaseView.h */,
+				DA44760B171943340021CED3 /* HRTransformBaseView.m */,
+				DACC74AB1706F3C2004CD8D3 /* HRProgressRecever.h */,
+				DADC468C171A5D05004BB49A /* HRProgressAdjust.h */,
+				DADC468D171A5D05004BB49A /* HRProgressAdjust.m */,
+			);
+			name = HRIntroduction;
+			sourceTree = "<group>";
+		};
+		DAF4CBF01708F78E00F432A4 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4CBF11708F81400F432A4 /* HRDefaultPanel.h */,
+				DAF4CBF21708F81400F432A4 /* HRDefaultPanel.m */,
+				DA4475FE171920E90021CED3 /* HRDefaultBackgroundView.h */,
+				DA4475FF171920E90021CED3 /* HRDefaultBackgroundView.m */,
+				DA447601171926240021CED3 /* HRDefaultGradientView.h */,
+				DA447602171926240021CED3 /* HRDefaultGradientView.m */,
+			);
+			name = default;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAEBC6751702B3B600A9A5CB /* HRIntroduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEBC6991702B3B600A9A5CB /* Build configuration list for PBXNativeTarget "HRIntroduction" */;
+			buildPhases = (
+				DAEBC6721702B3B600A9A5CB /* Sources */,
+				DAEBC6731702B3B600A9A5CB /* Frameworks */,
+				DAEBC6741702B3B600A9A5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRIntroduction;
+			productName = HRIntroduction;
+			productReference = DAEBC6761702B3B600A9A5CB /* HRIntroduction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAEBC66E1702B3B600A9A5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = hayashi311;
+			};
+			buildConfigurationList = DAEBC6711702B3B600A9A5CB /* Build configuration list for PBXProject "HRIntroduction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAEBC66D1702B3B600A9A5CB;
+			productRefGroup = DAEBC6771702B3B600A9A5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEBC6751702B3B600A9A5CB /* HRIntroduction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEBC6741702B3B600A9A5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEBC6841702B3B600A9A5CB /* InfoPlist.strings in Resources */,
+				DAEBC68C1702B3B600A9A5CB /* Default.png in Resources */,
+				DAEBC68E1702B3B600A9A5CB /* Default@2x.png in Resources */,
+				DAEBC6901702B3B600A9A5CB /* Default-568h@2x.png in Resources */,
+				DA44760717192FE80021CED3 /* background@2x.png in Resources */,
+				DA447609171935690021CED3 /* title@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAEBC6721702B3B600A9A5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEBC6861702B3B600A9A5CB /* main.m in Sources */,
+				DAEBC68A1702B3B600A9A5CB /* AppDelegate.m in Sources */,
+				DAEBC6931702B3B600A9A5CB /* ViewController.m in Sources */,
+				DAEBC6A11702B67600A9A5CB /* HRIntroductionViewController.m in Sources */,
+				DAF4CBF31708F81400F432A4 /* HRDefaultPanel.m in Sources */,
+				DA447600171920E90021CED3 /* HRDefaultBackgroundView.m in Sources */,
+				DA447603171926240021CED3 /* HRDefaultGradientView.m in Sources */,
+				DA44760C171943350021CED3 /* HRTransformBaseView.m in Sources */,
+				DADC468E171A5D05004BB49A /* HRProgressAdjust.m in Sources */,
+				DADC4691171AB61B004BB49A /* HRSampleIntoroductionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAEBC6821702B3B600A9A5CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEBC6831702B3B600A9A5CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAEBC6971702B3B600A9A5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAEBC6981702B3B600A9A5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAEBC69A1702B3B600A9A5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: hayashi ryota (GE89YH68HX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hayashi ryota (GE89YH68HX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRIntroduction/HRIntroduction-Prefix.pch";
+				INFOPLIST_FILE = "HRIntroduction/HRIntroduction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E595A4A6-BB99-41DB-827E-A2C4B3534C1F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E595A4A6-BB99-41DB-827E-A2C4B3534C1F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAEBC69B1702B3B600A9A5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: hayashi ryota (GE89YH68HX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hayashi ryota (GE89YH68HX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRIntroduction/HRIntroduction-Prefix.pch";
+				INFOPLIST_FILE = "HRIntroduction/HRIntroduction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E595A4A6-BB99-41DB-827E-A2C4B3534C1F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E595A4A6-BB99-41DB-827E-A2C4B3534C1F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAEBC6711702B3B600A9A5CB /* Build configuration list for PBXProject "HRIntroduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEBC6971702B3B600A9A5CB /* Debug */,
+				DAEBC6981702B3B600A9A5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEBC6991702B3B600A9A5CB /* Build configuration list for PBXNativeTarget "HRIntroduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEBC69A1702B3B600A9A5CB /* Debug */,
+				DAEBC69B1702B3B600A9A5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAEBC66E1702B3B600A9A5CB /* Project object */;
+}
